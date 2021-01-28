@@ -19,6 +19,8 @@ export default makeStyles((theme) => ({
     margin: '10px 0',
   },
   buttonSubmit: {
-    marginBottom: 10,
-  },
+    marginTop: 10,
+    fontWeight: '600',
+    letterSpacing: '1px'
+  }
 }));
