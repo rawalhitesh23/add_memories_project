@@ -1,0 +1,21 @@
+{
+  "name": "your_memories",
+  "version": "1.0.0",
+  "description": "This is a web app created in mern stack. We can store our life's memories with images for long time using this web app and we can also do crud operations in on our memories. I have used redux library to manage state of whole application and I have used material-ui components and icons to create application layout.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server/index.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rawalhitesh23/add_memories_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rawalhitesh23/add_memories_project/issues"
+  },
+  "homepage": "https://github.com/rawalhitesh23/add_memories_project#readme"
+}
